@@ -1,5 +1,7 @@
 package problemandsolutions;
 
+import java.util.Scanner;
+
 public class GradeSheet {
     // Write a Java program that determines a student’s grade.
     //The program will read three types of scores(quiz, mid-term, and final scores) and determine the grade based on
@@ -21,7 +23,28 @@ public class GradeSheet {
 
 
     public static void main(String[] args) {
+    double quiz, mid_term, final_term,score;
+    Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the score of Quiz:: ");
+        quiz=sc.nextDouble();
 
+        System.out.println("Enter the score of Mid_Term:: ");
+        mid_term=sc.nextDouble();
+        System.out.println("Enter the score of Final_Term:: ");
+        final_term=sc.nextDouble();
+        score=(quiz+mid_term+final_term)/3;
+        if(score>=90){
+            System.out.println("Your grade is A");
+        }
+        else if(score>=70){
+            System.out.println("Your grade is B");
+        }
+        else if(score>=50){
+            System.out.println("Your grade is C");
+        }
+        else{
+            System.out.println("Your grade is F");
+        }
     }
 
 }
