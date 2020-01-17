@@ -10,5 +10,42 @@ public class FindMissingNumber {
          */
          int [] array = new int[]{10, 2, 1, 4, 5, 3, 7, 8, 6};
 
+        int[] helper = new int[1];
+
+        for (int i = 0; i < array.length; i++) {
+            int temp = Math.abs(array[i]);
+            if (temp <= array.length) {
+                array[temp - 1] *= (-1);
+            }
+
+            else if (temp > array.length) {
+                if (temp % array.length != 0)
+                    helper[temp % array.length - 1] = -1;
+                else
+                    helper[(temp % array.length) +
+                            array.length - 1] = -1;
+            }
+        }
+
+        for (int i = 0; i < array.length; i++)
+            if (array[i] > 0)
+                System.out.print(i + 1 + " ");
+        for (int i = 0; i < helper.length; i++)
+            if (helper[i] >= 0)
+                System.out.print(array.length + i + 1 + " ");
+
+        return;
+    }
+
+    {
+        int[] array = { 1, 7, 3, 12, 5, 10, 8, 4, 9 };
+
+        missing1(array);
+    }
+
+    private void missing1(int[] array) {
     }
 }
+
+
+
