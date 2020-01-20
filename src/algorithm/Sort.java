@@ -1,9 +1,12 @@
 package algorithm;
 
-public class Sort<list, l> {
+import java.util.List;
+
+public class Sort<list, l, retur, li> {
 
     long executionTime = 0;
     private Object list;
+    private int n;
     /*
      * Please implement all the sorting algorithm. Feel free to add helper methods.
      * Store all the sorted data into one of the databases.
@@ -78,7 +81,7 @@ public class Sort<list, l> {
     }
 
 
-    public Object mergeSort(int[] array) {
+    public void mergeSort(int[] array) {
         //implement here
         int n = array.length;
         for (int i=0; i<n; ++i)
@@ -86,8 +89,6 @@ public class Sort<list, l> {
         System.out.println();
     }
 
-        return list;
-    }
 
 
 
@@ -130,6 +131,29 @@ public class Sort<list, l> {
     }
 
     private void heapSort(int[] array, int i, int i1) {
+
+        {
+            int n = array.length;
+
+            // Build heap (rearrange array)
+            for (int i = n / 2 - 1; i >= 0; i--)
+                heapify(array, n, i);
+
+            // One by one extract an element from heap
+            for (int i=n-1; i>=0; i--)
+            {
+                // Move current root to end
+                int temp = array[0];
+                array[0] = array[i];
+                array[i] = temp;
+
+                // call max heapify on the reduced heap
+                heapify(array, i, 0);
+            }
+        }
+    }
+
+    private void heapify(int[] array, int n, int i) {
     }
 
 
@@ -142,13 +166,10 @@ public class Sort<list, l> {
         return list;
     }
     
-    public int [] shellSort(int [] array){
-        int [] list = array;
+    public int [] shellSort(int [] array) {
+        int[] list = array;
         //implement here
 
-
-
-        
 
         return list;
     }
