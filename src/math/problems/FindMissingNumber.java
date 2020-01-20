@@ -38,7 +38,7 @@ public class FindMissingNumber {
     }
 
     {
-        int[] array = { 1, 7, 3, 12, 5, 10, 8, 4, 9 };
+        int[] array = { 10, 2, 1, 4, 5, 3, 7, 8, 6};
 
         missing1(array);
     }

@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Numbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Numbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/CollectionView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/CollectionView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" beforeDir="false" afterPath="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/FindMissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/math/problems/MergeTwoArraysAndRemoveDuplicatesProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/problems/MergeTwoArraysAndRemoveDuplicatesProgram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arrayB" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="math.problems" />
     </key>
@@ -190,10 +191,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579136283147" />
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579363350310">
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579498488258">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579363350310" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579498488258" />
     <state x="506" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1579334200960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
