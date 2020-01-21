@@ -2,7 +2,7 @@ package algorithm;
 
 import java.util.List;
 
-public class Sort<list, l, retur, li> {
+public class Sort<list, l, retur> {
 
     long executionTime = 0;
     private Object list;
@@ -89,7 +89,7 @@ public class Sort<list, l, retur, li> {
         System.out.println();
     }
 
-
+        return ist;
 
 
     public int [] quickSort(int [] array){
@@ -100,14 +100,14 @@ public class Sort<list, l, retur, li> {
             System.out.print(list[i] + " ");
         return list;
     }
-        
 
 
-    
+
+
     public int [] heapSort(int [] array){
         int [] list = array;
         //implement here
-        
+
         for (int i = n / 2 - 1; i >= 0; i--)
             heapSort(array, n, i);
 
@@ -122,10 +122,10 @@ public class Sort<list, l, retur, li> {
             // call max heapify on the reduced heap 
             heapSort(array, i, 0);
         }
-    
-    
-  
-        
+
+
+
+
 
         return list;
     }
@@ -160,15 +160,18 @@ public class Sort<list, l, retur, li> {
     public int [] bucketSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
-    
-    public int [] shellSort(int [] array) {
-        int[] list = array;
+
+    public int [] shellSort(int [] array){
+        int [] list = array;
         //implement here
+
+
+
 
 
         return list;

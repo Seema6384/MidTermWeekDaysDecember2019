@@ -1,39 +1,189 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A.Data structure is a particular way of storing and organizing information in a computer so that it can be retrieved and
+used most productively.
+Different kinds of data structures are meant for different kinds of applications, and some are highly specialized to
+specific tasks.
+Data structures are important for the following reasons:
+1. Data structures are used in almost every program or software system.
+2. Specific data structures are essential ingredients of many efficient algorithms, and make possible the management of
+huge amounts of data, such as large integrated collection of databases.
+3. Some programming languages emphasize data structures, rather than algorithms, as the key organizing factor in
+software design.
+
 
 
 What are the various operations that can be performed on different Data Structures?
+The possible operations on the linear data structure are:Traversal, Insertion, Deletion, Searching, Sorting and Merging.
+ Examples of Linear Data Structure are Stack and Queue. Stack: Stack is a data structure in which insertion and deletion
+operations are performed at one end only.
+
+
+
 List out the areas in which data structures are applied extensively?
-what is an Array?
+Compiler Design,
+Operating System,
+Database Management System,
+Statistical analysis package,
+Numerical Analysis,
+Graphics,
+Artificial Intelligence,
+and Simulation.
+
+
+what is an Array?Array. An array is a data structure that contains a group of elements. Typically these elements are all
+ of the same data type, such as an integer or string. Arrays are commonly used in computer programs to organize data so
+ that a related set of values can be easily sorted or searched.
+
+
+
 what is the difference between the Array and ArrayList?
+1.Implementation of array is simple fixed sized array but Implementation of ArrayList is dynamic sized array.
+2.Array can contain both primitives and objects but ArrayList can contain only object elements
+3.You can’t use generics along with array but ArrayList allows us to use generics to ensure type safety.
+4.You can use length variable to calculate length of an array but size() method to calculate size of ArrayList.
+5.Array use assignment operator to store elements but ArrayList use add() to insert elements
+
+
 what is LinkedList?
+In computer science, a linked list is a linear collection of data elements, whose order is not given by their physical
+placement in memory. Instead, each element points to the next. It is a data structure consisting of a collection of
+nodes which together represent a sequence.
+
+
 How is an Array different from Linked List?
+The major difference between Array and Linked list regards to their structure. Arrays are index based data structure
+ where each element associated with an index. On the other hand, Linked list relies on references where each node
+ consists of the data and the references to the previous and next element
+
+
 what is queue?
+A Queue is a FIFO (First In First Out) data structure where the element that is added first will be deleted first. The
+basic queue operations are enqueue (insertion) and dequeue (deletion). ... The elements in a queue are arranged
+ sequentially and hence queues are said to be linear data structures.
+
+
 what is stack?
+A stack is a container of objects that are inserted and removed according to the last-in first-out LIFO principle.
+A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds
+ an item to the top of the stack, pop removes the item from the top.
+
+
 what is FIFO and LIFO?
+LIFO (last-in-first-out) and FIFO (first-in-first-out) are the two most common inventory cost methods that companies use
+ to account for the costs of purchased inventory on the balance sheet. The method a business chooses to account for its
+  inventory can directly impact its financial statements.
+
+
 what is the order of complexity?
+This means that it is a certain mathematical expression of the size of the input, and the algorithm finishes between two
+ factors of it. Generally, the smaller the order of complexity of the program's underlying algorithm, the faster it will
+ run and the better it will scale as the input gets larger
+
+
 what is the best case to search an element from an array?
+In computer science, binary search, also known as half-interval search, logarithmic search, or binary chop, is a search
+ algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to
+ the middle element of the array. ... In the best case, where the target value is the middle element of the array,
+
+
 what is the worst case to search an element from an array?
+The worst case complexity is O(n/2) (equivalent to O(n)) when element is in the middle or not present in the array.
+
+
 what is tree in data structure?
+ tree is a nonlinear data structure, compared to arrays,linked lists,stacks and queues which are linear data structures.
+ A tree can be empty with no nodes or a tree is a structure consisting of one node called the root and zero or one or
+ more subtrees.In computer science, a tree is a widely used abstract data type that simulates a hierarchical tree
+ structure, with a root value and subtrees of children with a parent node, represented as a set of linked nodes
+
+
 what is graph in data structure?
+A Graph is a non-linear data structure consisting of nodes and edges. The nodes are sometimes also referred to as
+vertices and the edges are lines or arcs that connect any two nodes in the graph. ... A Graph consists of a finite set
+ of vertices(or nodes) and set of Edges which connect a pair of nodes
+
+
 what is the difference between the HashTable and HashMap?
+Hashtable is synchronized, whereas HashMap is not. This makes HashMap better for non-threaded applications, as
+unsynchronized Objects typically perform better than synchronized ones. Hashtable does not allow null keys or values.
+
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+The major data structures used are as follows: · RDBMS - Array · Network data model - Graph · Hierarchical data .
+
+
 How HashMap works in java?
+HashMap in Java works on hashing principle. It is a data structure which allows us to store object and retrieve it in
+constant time O(1) provided we know the key. ... HashMap internally stores mapping in the form of Map.Entry object which
+ contains both key and value object
+
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+ArrayIndexOutOfBoundsException is thrown to indicate that we are trying to access array element with an illegal index.
+ This exception is thrown when the index is either negative or greater than or equal to the size of the array
+
+
 What are the different ways of copying an array into another array?
+Using variable assignment. This method has side effects as changes to the element of an array reflects on both the places. ...
+Create a new array of the same length and copy each element.
+Use the clone method of the array.
+Use System.
+
+
 What is difference between an array and a linked list?
+Basic:(array)It is a consistent set of a fixed number of data items.	It is an ordered set comprising a variable number of
+data items.
+Size:(array)Specified during declaration,	No need to specify; grow and shrink during execution.
+Storage Allocation:(array)Element location is allocated during compile time,	Element position is assigned during
+run time.
+Order of the elements:(array)Stored consecutively,	Stored randomly
+Accessing the element:(array)Direct or randomly accessed, i.e., Specify the array index or subscript.	Sequentially accessed, i.e., Traverse starting from the first node in the list by the pointer.
+Insertion and deletion of element:(array)Slow relatively as shifting is required.	Easier, fast and efficient.
+
+
 What is DFS and BFS?
+1.  BFS stands for Breadth First Search.	DFS stands for Depth First Search.
+2.	BFS(Breadth First Search) uses Queue data structure for finding the shortest path.	DFS(Depth First Search) uses
+ Stack data structure.
+3.	BFS can be used to find single source shortest path in an unweighted graph, because in BFS, we reach a vertex with
+ minimum number of edges from a source vertex.	In DFS, we might traverse through more edges to reach a destination
+  vertex from a source.
+4.	BFS is more suitable for searching verteces which are closer to the given source.	DFS is more suitable when
+there are solutions away from source.
+
+
 What is Recursion?
+Recursion refers to a method which solves a problem by solving a smaller version of the problem and then using that
+result plus some other computation to formulate the answer to the original problem
+
+
 What are linear and non linear data Structures?
+The main difference between linear and non linear data structures is that linear data structures arrange data in a
+ sequential manner while nonlinear data structures arrange data in a hierarchical manner, creating a relationship among
+ the data elements.
+
+
 What is Big-(O)-notation?
+Big O notation is a mathematical notation that describes the limiting behavior of a function when the argument tends
+ towards a particular value or infinity.
+
+
+
 Outlined different kind of sorting algorithm with time complexity?
+ sorting algorithms are almost always based on an algorithm with average time complexity (and generally worst-case
+ complexity) O(n log n), of which the most common are heap sort, merge sort, and quicksort. Finally, they may also be
+  unstable, and stability is often a desirable property in a sort
+
+
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
   b)In terms of Inserting element.
   c)In terms of Searching element.
   d)In terms of Removing element.
-
+data structure has it's own different way, or different algorithm for . itself, as you might need to sequentially access
+ all the nodes until the node you'are looking for. Inserting and deleting is much easier with doubly linked list. In
+ searching and deleting, we will have to scan all the elements as they.
 
