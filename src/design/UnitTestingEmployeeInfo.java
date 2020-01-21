@@ -1,63 +1,63 @@
+
 package design;
 
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.testng.AssertJUnit.assertEquals;
 
-        public class UnitTestingEmployeeInfo {
+public class UnitTestingEmployeeInfo {
 
-            private EmployeeInfo employeeInfo;
+    private EmployeeInfo employeeInfo;
 
-            @BeforeTest
-            public void initTest() {
+    @BeforeTest
+    public void initTest() {
 
-                employeeInfo = new EmployeeInfo() {
-                    @Override
-                    public void assignDepartment() {
+        employeeInfo = new EmployeeInfo() {
+            @Override
+            public void assignDepartment() {
 
-                    }
-                };
-
-                employeeInfo.setEmployeeName("John Doe");
-                employeeInfo.setEmployeeId(12345);
-                employeeInfo.assignDepartment("Human Resources");
-                EmployeeInfo.setCompanyName("Google");
-                employeeInfo.setEmployeeSalary(150000);
             }
+        };
 
-            @Test
-            public void testEmployeeName() {
+        employeeInfo.setEmployeeName("John Doe");
+        employeeInfo.setEmployeeId(12345);
+        employeeInfo.assignDepartment("Human Resources");
+        EmployeeInfo.setCompanyName("Google");
+        employeeInfo.setEmployeeSalary(150000);
+    }
 
-                System.out.println("Testing employeeName()");
-                assertEquals("John Doe", employeeInfo.employeeName());
-            }
+    @Test
+    public void testEmployeeName() {
 
-            @Test
-            public void testEmployeeId() {
+        System.out.println("Testing employeeName()");
+        assertEquals("John Doe", employeeInfo.employeeName());
+    }
 
-                System.out.println("Testing employeeId()");
-                assertEquals(12345, employeeInfo.employeeId());
-            }
+    @Test
+    public void testEmployeeId() {
 
-            @Test
-            public void testEmployeeDepartment() {
+        System.out.println("Testing employeeId()");
+        assertEquals(12345, employeeInfo.employeeId());
+    }
 
-                System.out.println("Testing getEmployeeDepartment()");
-                assertEquals("Human Resources", employeeInfo.getEmployeeDepartment());
-            }
+    @Test
+    public void testEmployeeDepartment() {
 
-            @Test
-            public void testCompanyName() {
+        System.out.println("Testing getEmployeeDepartment()");
+        assertEquals("Human Resources", employeeInfo.getEmployeeDepartment());
+    }
 
-                System.out.println("Testing setCompanyName()");
-                assertEquals("Google", employeeInfo.getCompanyName());
-            }
+    @Test
+    public void testCompanyName() {
 
-            @Test
-            public void testCalculateSalary() {
+        System.out.println("Testing setCompanyName()");
+        assertEquals("Google", employeeInfo.getCompanyName());
+    }
 
-                System.out.println("Testing calculateSalary()");
-                assertEquals(150000, employeeInfo.calculateSalary());
-            }
-        }
+    @Test
+    public void testCalculateSalary() {
 
+        System.out.println("Testing calculateSalary()");
+        assertEquals(150000, employeeInfo.calculateSalary());
+    }
+}
