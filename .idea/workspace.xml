@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b533036d-9a6c-47ac-a051-580b895fa47b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/UnitTestSorting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/excelreadandwrite/ReadExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelreadandwrite/ReadExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/excelreadandwrite/WriteExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/excelreadandwrite/WriteExcelFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,10 +173,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1579644956987" />
-    <state x="559" y="116" key="FileChooserDialogImpl" timestamp="1579644587489">
+    <state x="559" y="116" key="FileChooserDialogImpl" timestamp="1579659160138">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="559" y="116" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579644587489" />
+    <state x="559" y="116" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1579659160138" />
     <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1579253064799">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -201,10 +197,14 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1579136283147" />
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579498488258">
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1579658956464">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579498488258" />
+    <state x="496" y="253" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579658956464" />
+    <state x="182" y="50" key="new project wizard" timestamp="1579656258874">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="182" y="50" key="new project wizard/0.0.1600.860@0.0.1600.860" timestamp="1579656258874" />
     <state x="506" y="58" key="refactoring.ChangeSignatureDialog" timestamp="1579334200960">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

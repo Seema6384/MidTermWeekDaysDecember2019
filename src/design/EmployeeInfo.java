@@ -2,7 +2,7 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo implements EmployeeInfo1 {
+public abstract class EmployeeInfo implements EmployeeInfo1 {
 
 	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
 	 * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
@@ -87,6 +87,9 @@ public class EmployeeInfo implements EmployeeInfo1 {
 
 		return total;
 	}
+
+	public abstract void assignDepartment();
+
 	private static class DateConversion {
 
 		public DateConversion(Months months){}
